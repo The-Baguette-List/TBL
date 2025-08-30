@@ -9,10 +9,10 @@
     "password": "free to copy",
     "records": [
         {
-            "user": "none",
+            "user": "Feisaran",
             "link": "none",
-            "percent": "none",
-            "hz": "none"
+            "percent": "100",
+            "hz": "240"
         }
     ]
 }
