@@ -11,8 +11,8 @@
         {
             "user": "none",
             "link": "none",
-            "percent": none,
-            "hz": none
+            "percent": "none",
+            "hz": "none"
         }
     ]
 }
