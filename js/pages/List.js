@@ -187,3 +187,19 @@ export default {
         score,
     },
 };
+async mounted() {
+    console.log("Mounted: start fetching...");
+
+    try {
+        this.list = await fetchList();
+        console.log("List fetched:", this.list);
+
+        this.editors = await fetchEditors();
+        console.log("Editors fetched:", this.editors);
+    } catch (err) {
+        console.error("Error while fetching:", err);
+    }
+
+    this.loading = false;
+    console.log("Loading set to false");
+}
